@@ -58,3 +58,10 @@ main table .delete {
     border: 1px solid black;
     padding: 1rem;
 }
+
+main table .add-book {
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid black;
+    padding: 1rem;
+}
