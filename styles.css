@@ -1,0 +1,60 @@
+html {
+    --primary-color: #006a7c;
+    --secondary-color: #003038;
+    --shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/* header */
+
+header {
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    justify-self: center;
+    margin: 1rem;
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+main .content {
+    width: 50%;
+}
+
+main table .status-button {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+main table .delete {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    padding: 1rem;
+}
